@@ -1,0 +1,16 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "./public/",
+  "origins": [
+    "http://localhost:3030"
+  ],
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mysql": {
+    "client": "mysql",
+    "connection": "mysql://jwfui2q4lqvtgrala5za:pscale_pw_KQAf7PhpcWYsRnhKQQmGlABURD9O9ePjCqZlk78Jsv5@aws.connect.psdb.cloud/belajar?ssl={\"rejectUnauthorized\":true}"
+  }
+}
